@@ -1,6 +1,6 @@
 body{
-  background-color: #150C2A;
-  font-family: "Josefin Slab", serif;
+    background: radial-gradient(ellipse at 50% 30%, #1a0a2e 0%, #0d0d1a 50%, #050508 100%);
+  font-family: "Josefin Slab", sans-serif;
 }
 .container{
   max-width: 90%;
