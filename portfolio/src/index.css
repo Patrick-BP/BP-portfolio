@@ -1,0 +1,141 @@
+.top-menu {
+  background-color: rgba(21, 12, 42, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 63px;
+  position: fixed;
+  width: 87%;
+    top: 0;
+}
+.top-menu__nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  list-style: none;
+}
+.top-menu__item {
+  /* color: white; */
+  font-size: 1.2rem;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.top-menu__link {
+  text-decoration: none;
+  color: inherit;
+  color: white;
+  margin-left: 52px;
+}
+.top-menu__link:hover {
+  border-bottom: 9px solid #bc86fc;
+  transition: border-bottom 0.6s ease;
+}
+
+.top-menu__brand {
+  margin-left: 20px;
+}
+.top-menu__logo {
+  font-size: 1.5rem;
+  color: #bc86fc;
+  text-decoration: none;
+  font-weight: 700;
+}
+.top-menu__logo-image {
+  height: 137px;
+  width: auto;
+  background: none;
+  margin-top: 15px;
+}
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  color: white;
+  }
+.profile-image {
+  width: 500px;
+  height: auto;
+}
+
+.banner-content__title {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  margin-top: 200px;
+}
+.banner-content__subtitle {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.banner-content__description {
+  font-size: 1.7rem;
+  color: #bc86fc;
+}
+.banner-content__name {
+  color: #f8f8f9;
+  font-weight: 700;
+}
+.introduction {
+  padding-top: 100px;
+  color: white;
+}
+.introduction h2 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  font-weight: 300;
+}
+.introduction p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #f9f8fa;
+  margin-top: 20px;
+}
+.puple-color {
+  color: #bc86fc;
+  font-weight: 700;
+}
+.section-description {
+  color: white;
+}
+.social-media {
+  margin-top: 50px;
+  text-align: center;
+}
+.social-media h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #f8f8f9;
+  margin-top: 111px;
+}
+.social-media p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #f8f8f9;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.social-links a {
+  color: #bc86fc;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.social-links a:hover {
+  color: #f8f8f9;
+  transition: color 0.3s ease;
+}
+footer {
+  color: #f8f8f9;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+.about-us-page{
+    color: #f8f8f9;
+    margin-top: 200px;
+}
