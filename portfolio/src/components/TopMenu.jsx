@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../assets/logo.png";
 
 const TopMenu = ({ items = [] }) => {
-  console.log(items);
+  
   return (
     <header className="top-menu">
       <div className="top-menu__brand">
