@@ -38,8 +38,8 @@ function AboutUs() {
       </section>
 
       <section className="story">
-        <h1 className="banner-content__title">My Skills</h1>
-         <h1>My <span>Skills</span></h1>
+        <h1 className="banner-content__title center">My <span className="puple-color">Skills</span></h1>
+      
   <div className="grid-rows">
 
     {/* <!-- Row 1: TS, JS, React, Angular, NodeJS --> */}
